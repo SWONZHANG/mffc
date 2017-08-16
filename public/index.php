@@ -1,10 +1,13 @@
-<?php
+   <?php
 
-require "../vendor/autoload.php";
+// 定义 PUBLIC_PATH
 
-require "../config/routes.php";
+define('PUBLIC_PATH', __DIR__);
 
+// 启动器
 
+require PUBLIC_PATH.'/../bootstrap.php';
 
+// 路由配置、开始处理
 
-?>
+require BASE_PATH.'/config/routs.php';
