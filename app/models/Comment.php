@@ -10,6 +10,12 @@
 
 			echo "getit";
 		}
+
+		public static function justtest(){
+
+
+			echo "test";
+		} 
 	}
 
 ?>
